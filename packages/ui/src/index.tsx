@@ -1,5 +1,5 @@
 import * as React from "react";
-import Button from "./Button";
+import ZButton from "./ZButton";
 export { NewTabLink } from "./NewTabLink";
 export { CounterButton } from "./CounterButton";
-export { Button };
+export { ZButton };
