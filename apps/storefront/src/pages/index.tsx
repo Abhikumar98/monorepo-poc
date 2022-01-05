@@ -1,5 +1,6 @@
 import { log } from "logger";
-import { CounterButton, NewTabLink } from "ui";
+import { CounterButton, NewTabLink, ZButton } from "ui";
+import "antd/dist/antd.less";
 
 export default function Store() {
 	log("Hey! This is Home.");
@@ -10,6 +11,7 @@ export default function Store() {
 			<NewTabLink href="https://turborepo.org/">
 				Built With TurboRepo
 			</NewTabLink>
+			<ZButton>Antd Button</ZButton>
 		</div>
 	);
 }
