@@ -1,6 +1,5 @@
 import * as React from "react";
 import logo from "./logo.svg";
-// import "./App.css";
 import { CounterButton, ZButton } from "ui";
 import { DatePicker } from "antd";
 import "antd/dist/antd.less";
@@ -8,7 +7,7 @@ import "./index.less";
 
 function App() {
 	return (
-		<div className="App less-container">
+		<div className="App less-container bg-blue-600">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<h1>Turborepo Admin</h1>

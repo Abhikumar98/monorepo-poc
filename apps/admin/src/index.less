@@ -1,8 +1,13 @@
-// @import "~antd/dist/antd.less";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import "./test.less";
+
 .less-container {
 	background-color: @primary-background;
 	color: @primary-color;
+	@apply bg-blue-100;
 }
 
 body {
