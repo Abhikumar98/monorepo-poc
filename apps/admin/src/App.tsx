@@ -2,6 +2,8 @@ import * as React from "react";
 import logo from "./logo.svg";
 // import "./App.css";
 import { CounterButton, ZButton } from "ui";
+import { DatePicker } from "antd";
+import "antd/dist/antd.less";
 import "./index.less";
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
 				<p>
 					Edit <code>App.tsx</code> and save to test HMR updates.
 				</p>
+				<DatePicker />
 				<p>
 					<a
 						className="App-link"
